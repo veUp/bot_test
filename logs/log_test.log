@@ -2434,3 +2434,1068 @@ KeyboardInterrupt
 2022-09-05 22:35:03,022 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
 2022-09-05 22:35:03,022 :: aiogram:329 :: WARNING :: Goodbye!
 2022-09-05 22:35:03,022 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:37:21,794 :: root:29 :: INFO :: Start bot
+2022-09-07 19:37:21,794 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:37:21,796 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:37:21,960 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:37:21,960 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:37:21,961 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:37:22,022 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:37:22,022 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:37:22,072 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:37:22,072 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:37:22,072 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:37:22,072 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:37:22,127 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:37:22,127 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:37:42,184 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:37:42,299 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:38:02,349 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:38:02,460 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:38:22,509 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:38:22,618 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:38:42,667 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:38:42,777 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:39:02,827 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:39:02,931 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:39:22,984 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:39:23,087 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:39:27,112 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762905,\n"message":{"message_id":5036,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662568769,"text":"\\u0412 \\u0433\\u043b\\u0430\\u0432\\u043d\\u043e\\u0435 \\u043c\\u0435\\u043d\\u044e"}}]}'"
+2022-09-07 19:39:27,113 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:27,113 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}, {"text": "Админ панель"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:39:27,200 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5037,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662568769,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:39:27,200 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762906, 'timeout': 20}" and files "None"
+2022-09-07 19:39:27,702 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762906,\n"message":{"message_id":5038,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568769,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}'"
+2022-09-07 19:39:27,702 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:27,703 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Привет, <b> Сергей </b>! \n\nДобро пожаловать в продуктовый магазин <b>"Дядя Костя"!</b>', 'parse_mode': 'html'}" and files "None"
+2022-09-07 19:39:27,792 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5039,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568769,"text":"\\u041f\\u0440\\u0438\\u0432\\u0435\\u0442,  \\u0421\\u0435\\u0440\\u0433\\u0435\\u0439 ! \\n\\n\\u0414\\u043e\\u0431\\u0440\\u043e \\u043f\\u043e\\u0436\\u0430\\u043b\\u043e\\u0432\\u0430\\u0442\\u044c \\u0432 \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432\\u044b\\u0439 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d \\"\\u0414\\u044f\\u0434\\u044f \\u041a\\u043e\\u0441\\u0442\\u044f\\"!","entities":[{"offset":9,"length":7,"type":"bold"},{"offset":59,"length":13,"type":"bold"}]}}'"
+2022-09-07 19:39:27,792 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:39:27,793 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762907, 'timeout': 20}" and files "None"
+2022-09-07 19:39:27,880 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5040,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568770,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:39:32,829 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762907,\n"message":{"message_id":5041,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662568774,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:39:32,829 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:32,849 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\U0001f194 ID: 671924527\nИмя: Константин\nБаланс: 10000.0 Р\nСовершено покупок: 21'}" and files "None"
+2022-09-07 19:39:32,925 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762908, 'timeout': 20}" and files "None"
+2022-09-07 19:39:32,975 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5042,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662568775,"text":"\\ud83c\\udd94 ID: 671924527\\n\\u0418\\u043c\\u044f: \\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d\\n\\u0411\\u0430\\u043b\\u0430\\u043d\\u0441: 10000.0 \\u0420\\n\\u0421\\u043e\\u0432\\u0435\\u0440\\u0448\\u0435\\u043d\\u043e \\u043f\\u043e\\u043a\\u0443\\u043f\\u043e\\u043a: 21"}}'"
+2022-09-07 19:39:36,764 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762908,\n"message":{"message_id":5043,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662568778,"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u044b"}}]}'"
+2022-09-07 19:39:36,764 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:36,765 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'ВИТРИНА', 'reply_markup': '{"keyboard": [[{"text": "Напитки"}, {"text": "Мясо"}, {"text": "Овощи"}], [{"text": "Фрукты"}, {"text": "В главное меню"}, {"text": "Добавить категорию"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:39:36,866 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762909, 'timeout': 20}" and files "None"
+2022-09-07 19:39:36,916 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5044,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662568779,"text":"\\u0412\\u0418\\u0422\\u0420\\u0418\\u041d\\u0410"}}'"
+2022-09-07 19:39:38,574 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762909,\n"message":{"message_id":5045,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568780,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:39:38,575 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:38,575 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 33, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:39:38,684 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762910, 'timeout': 20}" and files "None"
+2022-09-07 19:39:42,787 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762910,\n"message":{"message_id":5046,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568784,"text":"500"}}]}'"
+2022-09-07 19:39:42,787 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:42,788 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Нет такой команды:(\nНажмите на /help'}" and files "None"
+2022-09-07 19:39:42,890 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762911, 'timeout': 20}" and files "None"
+2022-09-07 19:39:42,920 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5047,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568785,"text":"\\u041d\\u0435\\u0442 \\u0442\\u0430\\u043a\\u043e\\u0439 \\u043a\\u043e\\u043c\\u0430\\u043d\\u0434\\u044b:(\\n\\u041d\\u0430\\u0436\\u043c\\u0438\\u0442\\u0435 \\u043d\\u0430 /help","entities":[{"offset":31,"length":5,"type":"bot_command"}]}}'"
+2022-09-07 19:39:42,920 :: aiogram:133 :: DEBUG :: Make request: "deleteMessage" with data: "{'chat_id': 723764143, 'message_id': 5046}" and files "None"
+2022-09-07 19:39:43,044 :: aiogram:95 :: DEBUG :: Response for deleteMessage: [200] "'{"ok":true,"result":true}'"
+2022-09-07 19:39:56,543 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762911,\n"message":{"message_id":5048,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568798,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}]}'"
+2022-09-07 19:39:56,543 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:39:56,544 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Привет, <b> Сергей </b>! \n\nДобро пожаловать в продуктовый магазин <b>"Дядя Костя"!</b>', 'parse_mode': 'html'}" and files "None"
+2022-09-07 19:39:56,657 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762912, 'timeout': 20}" and files "None"
+2022-09-07 19:39:56,753 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5049,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568798,"text":"\\u041f\\u0440\\u0438\\u0432\\u0435\\u0442,  \\u0421\\u0435\\u0440\\u0433\\u0435\\u0439 ! \\n\\n\\u0414\\u043e\\u0431\\u0440\\u043e \\u043f\\u043e\\u0436\\u0430\\u043b\\u043e\\u0432\\u0430\\u0442\\u044c \\u0432 \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432\\u044b\\u0439 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d \\"\\u0414\\u044f\\u0434\\u044f \\u041a\\u043e\\u0441\\u0442\\u044f\\"!","entities":[{"offset":9,"length":7,"type":"bold"},{"offset":59,"length":13,"type":"bold"}]}}'"
+2022-09-07 19:39:56,753 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:39:56,950 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5050,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568799,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:40:04,140 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762912,\n"message":{"message_id":5051,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568806,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:40:04,140 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:04,141 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 33, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:40:04,253 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762913, 'timeout': 20}" and files "None"
+2022-09-07 19:40:06,208 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762913,\n"message":{"message_id":5052,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568808,"text":"500"}}]}'"
+2022-09-07 19:40:06,209 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:06,209 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Нет такой команды:(\nНажмите на /help'}" and files "None"
+2022-09-07 19:40:06,311 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5053,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568808,"text":"\\u041d\\u0435\\u0442 \\u0442\\u0430\\u043a\\u043e\\u0439 \\u043a\\u043e\\u043c\\u0430\\u043d\\u0434\\u044b:(\\n\\u041d\\u0430\\u0436\\u043c\\u0438\\u0442\\u0435 \\u043d\\u0430 /help","entities":[{"offset":31,"length":5,"type":"bot_command"}]}}'"
+2022-09-07 19:40:06,312 :: aiogram:133 :: DEBUG :: Make request: "deleteMessage" with data: "{'chat_id': 723764143, 'message_id': 5052}" and files "None"
+2022-09-07 19:40:06,312 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762914, 'timeout': 20}" and files "None"
+2022-09-07 19:40:06,379 :: aiogram:95 :: DEBUG :: Response for deleteMessage: [200] "'{"ok":true,"result":true}'"
+2022-09-07 19:40:09,317 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762914,\n"message":{"message_id":5054,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568811,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}]}'"
+2022-09-07 19:40:09,318 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:09,318 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Привет, <b> Сергей </b>! \n\nДобро пожаловать в продуктовый магазин <b>"Дядя Костя"!</b>', 'parse_mode': 'html'}" and files "None"
+2022-09-07 19:40:09,424 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762915, 'timeout': 20}" and files "None"
+2022-09-07 19:40:09,436 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5055,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568811,"text":"\\u041f\\u0440\\u0438\\u0432\\u0435\\u0442,  \\u0421\\u0435\\u0440\\u0433\\u0435\\u0439 ! \\n\\n\\u0414\\u043e\\u0431\\u0440\\u043e \\u043f\\u043e\\u0436\\u0430\\u043b\\u043e\\u0432\\u0430\\u0442\\u044c \\u0432 \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432\\u044b\\u0439 \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d \\"\\u0414\\u044f\\u0434\\u044f \\u041a\\u043e\\u0441\\u0442\\u044f\\"!","entities":[{"offset":9,"length":7,"type":"bold"},{"offset":59,"length":13,"type":"bold"}]}}'"
+2022-09-07 19:40:09,436 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:40:09,552 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5056,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568811,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:40:11,331 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762915,\n"message":{"message_id":5057,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568813,"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u044b"}}]}'"
+2022-09-07 19:40:11,331 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:11,332 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'ВИТРИНА', 'reply_markup': '{"keyboard": [[{"text": "Напитки"}, {"text": "Мясо"}, {"text": "Овощи"}], [{"text": "Фрукты"}, {"text": "В главное меню"}, {"text": "Добавить категорию"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:40:11,445 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762916, 'timeout': 20}" and files "None"
+2022-09-07 19:40:11,511 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5058,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568813,"text":"\\u0412\\u0418\\u0422\\u0420\\u0418\\u041d\\u0410"}}'"
+2022-09-07 19:40:14,666 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762916,\n"message":{"message_id":5059,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568816,"text":"\\u041e\\u0432\\u043e\\u0449\\u0438"}}]}'"
+2022-09-07 19:40:14,666 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:14,667 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': '\nТип: Овощи\nНазвание: Банан'}" and files "None"
+2022-09-07 19:40:14,784 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762917, 'timeout': 20}" and files "None"
+2022-09-07 19:40:14,870 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5060,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"text":"\\u0422\\u0438\\u043f: \\u041e\\u0432\\u043e\\u0449\\u0438\\n\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435: \\u0411\\u0430\\u043d\\u0430\\u043d"}}'"
+2022-09-07 19:40:14,870 :: aiogram:133 :: DEBUG :: Make request: "sendPhoto" with data: "{'chat_id': 723764143, 'photo': 'AgACAgIAAxkBAAIKvGMLetWPZ3dYB0vK4BawvFLBqJQ4AAJ3wTEb7P1YSHyyfX_3D9ddAQADAgADcwADKQQ'}" and files "{}"
+2022-09-07 19:40:15,078 :: aiogram:95 :: DEBUG :: Response for sendPhoto: [200] "'{"ok":true,"result":{"message_id":5061,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"photo":[{"file_id":"AgACAgIAAxkDAAITxWMYyXHv4viUEVfRHWMuSFPkZfrIAAJ3wTEb7P1YSHyyfX_3D9ddAQADAgADcwADKQQ","file_unique_id":"AQADd8ExG-z9WEh4","file_size":1165,"width":90,"height":60},{"file_id":"AgACAgIAAxkDAAITxWMYyXHv4viUEVfRHWMuSFPkZfrIAAJ3wTEb7P1YSHyyfX_3D9ddAQADAgADbQADKQQ","file_unique_id":"AQADd8ExG-z9WEhy","file_size":10011,"width":320,"height":214},{"file_id":"AgACAgIAAxkDAAITxWMYyXHv4viUEVfRHWMuSFPkZfrIAAJ3wTEb7P1YSHyyfX_3D9ddAQADAgADeAADKQQ","file_unique_id":"AQADd8ExG-z9WEh9","file_size":32973,"width":800,"height":536}]}}'"
+2022-09-07 19:40:15,078 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Цена: 10Р', 'reply_markup': '{"inline_keyboard": [[{"text": "Купить", "callback_data": "button Банан"}]]}'}" and files "None"
+2022-09-07 19:40:15,300 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5062,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"text":"\\u0426\\u0435\\u043d\\u0430: 10\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u0411\\u0430\\u043d\\u0430\\u043d"}]]}}}'"
+2022-09-07 19:40:15,300 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': '\nТип: Овощи\nНазвание: Мясо'}" and files "None"
+2022-09-07 19:40:15,508 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5063,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"text":"\\u0422\\u0438\\u043f: \\u041e\\u0432\\u043e\\u0449\\u0438\\n\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435: \\u041c\\u044f\\u0441\\u043e"}}'"
+2022-09-07 19:40:15,508 :: aiogram:133 :: DEBUG :: Make request: "sendPhoto" with data: "{'chat_id': 723764143, 'photo': 'AgACAgIAAxkBAAIK5WMLfaUGbg1EpyNjgyckiD_qq0-xAAKQwTEb7P1YSM5Nr-RzSYQqAQADAgADcwADKQQ'}" and files "{}"
+2022-09-07 19:40:15,681 :: aiogram:95 :: DEBUG :: Response for sendPhoto: [200] "'{"ok":true,"result":{"message_id":5064,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"photo":[{"file_id":"AgACAgIAAxkDAAITyGMYyXGdRXpllSL9xjiwtMt4LxJZAAKQwTEb7P1YSM5Nr-RzSYQqAQADAgADcwADKQQ","file_unique_id":"AQADkMExG-z9WEh4","file_size":1220,"width":90,"height":51},{"file_id":"AgACAgIAAxkDAAITyGMYyXGdRXpllSL9xjiwtMt4LxJZAAKQwTEb7P1YSM5Nr-RzSYQqAQADAgADbQADKQQ","file_unique_id":"AQADkMExG-z9WEhy","file_size":18519,"width":320,"height":180},{"file_id":"AgACAgIAAxkDAAITyGMYyXGdRXpllSL9xjiwtMt4LxJZAAKQwTEb7P1YSM5Nr-RzSYQqAQADAgADeAADKQQ","file_unique_id":"AQADkMExG-z9WEh9","file_size":53928,"width":620,"height":349}]}}'"
+2022-09-07 19:40:15,682 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Цена: 100Р', 'reply_markup': '{"inline_keyboard": [[{"text": "Купить", "callback_data": "button Мясо"}]]}'}" and files "None"
+2022-09-07 19:40:15,834 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5065,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"text":"\\u0426\\u0435\\u043d\\u0430: 100\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u041c\\u044f\\u0441\\u043e"}]]}}}'"
+2022-09-07 19:40:15,834 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'КАТЕГОРИЯ " ОВОЩИ "\nПУСТО'}" and files "None"
+2022-09-07 19:40:15,978 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5066,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568818,"text":"\\u041a\\u0410\\u0422\\u0415\\u0413\\u041e\\u0420\\u0418\\u042f \\" \\u041e\\u0412\\u041e\\u0429\\u0418 \\"\\n\\u041f\\u0423\\u0421\\u0422\\u041e"}}'"
+2022-09-07 19:40:21,403 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762917,\n"callback_query":{"id":"3108543324230507834","from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"message":{"message_id":5065,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"text":"\\u0426\\u0435\\u043d\\u0430: 100\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u041c\\u044f\\u0441\\u043e"}]]}},"chat_instance":"2838163468526305083","data":"button \\u041c\\u044f\\u0441\\u043e"}}]}'"
+2022-09-07 19:40:21,404 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:21,404 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Напишите количество, целочисленное'}" and files "None"
+2022-09-07 19:40:21,519 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762918, 'timeout': 20}" and files "None"
+2022-09-07 19:40:21,560 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5067,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568823,"text":"\\u041d\\u0430\\u043f\\u0438\\u0448\\u0438\\u0442\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e, \\u0446\\u0435\\u043b\\u043e\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e\\u0435"}}'"
+2022-09-07 19:40:21,561 :: aiogram:133 :: DEBUG :: Make request: "answerCallbackQuery" with data: "{'callback_query_id': '3108543324230507834'}" and files "None"
+2022-09-07 19:40:21,652 :: aiogram:95 :: DEBUG :: Response for answerCallbackQuery: [200] "'{"ok":true,"result":true}'"
+2022-09-07 19:40:24,492 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762918,\n"message":{"message_id":5068,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568826,"text":"12"}}]}'"
+2022-09-07 19:40:24,492 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:24,601 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762919, 'timeout': 20}" and files "None"
+2022-09-07 19:40:36,070 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762919,\n"callback_query":{"id":"3108543325341458112","from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"message":{"message_id":5062,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568817,"text":"\\u0426\\u0435\\u043d\\u0430: 10\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u0411\\u0430\\u043d\\u0430\\u043d"}]]}},"chat_instance":"2838163468526305083","data":"button \\u0411\\u0430\\u043d\\u0430\\u043d"}}]}'"
+2022-09-07 19:40:36,070 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:36,176 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762920, 'timeout': 20}" and files "None"
+2022-09-07 19:40:46,520 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762920,\n"message":{"message_id":5069,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568848,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}]}'"
+2022-09-07 19:40:46,520 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:46,520 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Неверное количество', 'reply_to_message_id': 5069}" and files "None"
+2022-09-07 19:40:46,593 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5070,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568848,"reply_to_message":{"message_id":5069,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568848,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]},"text":"\\u041d\\u0435\\u0432\\u0435\\u0440\\u043d\\u043e\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e"}}'"
+2022-09-07 19:40:46,619 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762921, 'timeout': 20}" and files "None"
+2022-09-07 19:40:50,747 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762921,\n"message":{"message_id":5071,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568852,"text":"12"}}]}'"
+2022-09-07 19:40:50,747 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:50,849 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762922, 'timeout': 20}" and files "None"
+2022-09-07 19:40:54,719 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762922,\n"message":{"message_id":5072,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568856,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]}}]}'"
+2022-09-07 19:40:54,719 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:40:54,719 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Неверное количество', 'reply_to_message_id': 5072}" and files "None"
+2022-09-07 19:40:54,833 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762923, 'timeout': 20}" and files "None"
+2022-09-07 19:40:54,869 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5073,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568857,"reply_to_message":{"message_id":5072,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568856,"text":"/help","entities":[{"offset":0,"length":5,"type":"bot_command"}]},"text":"\\u041d\\u0435\\u0432\\u0435\\u0440\\u043d\\u043e\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e"}}'"
+2022-09-07 19:41:14,981 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:41:15,087 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762923, 'timeout': 20}" and files "None"
+2022-09-07 19:41:35,135 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:41:35,243 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762923, 'timeout': 20}" and files "None"
+2022-09-07 19:41:39,971 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762923,\n"message":{"message_id":5074,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568902,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}'"
+2022-09-07 19:41:39,971 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:41:39,971 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 723764143, 'text': 'Неверное количество', 'reply_to_message_id': 5074}" and files "None"
+2022-09-07 19:41:40,080 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:41:40,128 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5075,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568902,"reply_to_message":{"message_id":5074,"from":{"id":723764143,"is_bot":false,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","language_code":"ru"},"chat":{"id":723764143,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","last_name":"\\u0427\\u0435\\u0440\\u043d\\u043e\\u0432","type":"private"},"date":1662568902,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]},"text":"\\u041d\\u0435\\u0432\\u0435\\u0440\\u043d\\u043e\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e"}}'"
+2022-09-07 19:42:00,243 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:42:00,353 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:42:20,404 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:42:20,508 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:42:40,562 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:42:40,671 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:43:00,723 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:43:00,828 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:43:20,883 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:43:20,987 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:43:41,046 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:43:41,158 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:44:01,211 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:44:01,317 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:44:21,371 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:44:21,481 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:44:41,540 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:44:41,655 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:45:01,708 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:45:01,823 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:45:21,873 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:45:21,979 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:45:42,033 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:45:42,146 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:46:02,209 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:46:02,309 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:46:22,360 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:46:22,466 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:46:42,522 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:46:42,625 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:47:02,676 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:47:02,788 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:47:22,839 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:47:22,940 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:47:42,992 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:47:43,093 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:48:03,145 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:48:03,260 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:48:23,314 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:48:23,417 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:48:43,471 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:48:43,581 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762924, 'timeout': 20}" and files "None"
+2022-09-07 19:48:44,167 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:48:44,167 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:48:44,168 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:48:46,599 :: root:29 :: INFO :: Start bot
+2022-09-07 19:48:46,600 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:48:46,601 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:48:46,767 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:48:46,767 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:48:46,767 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:48:46,821 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:48:46,821 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:48:46,878 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:48:46,878 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:48:46,878 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:48:46,878 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:48:46,930 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:48:46,930 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:48:51,393 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:48:51,393 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:48:51,393 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:49:01,283 :: root:29 :: INFO :: Start bot
+2022-09-07 19:49:01,283 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:49:01,284 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:49:01,434 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:49:01,434 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:49:01,434 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:49:01,486 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:49:01,486 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:49:01,534 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:49:01,534 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:49:01,534 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:49:01,534 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:49:01,606 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:49:01,607 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:49:18,240 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762924,\n"message":{"message_id":5076,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569360,"text":"\\u0412 \\u0433\\u043b\\u0430\\u0432\\u043d\\u043e\\u0435 \\u043c\\u0435\\u043d\\u044e"}}]}'"
+2022-09-07 19:49:18,240 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:49:18,241 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}, {"text": "Админ панель"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:49:18,326 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5077,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569360,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:49:18,357 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762925, 'timeout': 20}" and files "None"
+2022-09-07 19:49:20,012 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762925,\n"message":{"message_id":5078,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569362,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:49:20,012 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:49:20,013 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\U0001f194 ID: 671924527\nИмя: Константин\nБаланс: 10000.0 Р\nСовершено покупок: 21'}" and files "None"
+2022-09-07 19:49:20,106 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5079,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569362,"text":"\\ud83c\\udd94 ID: 671924527\\n\\u0418\\u043c\\u044f: \\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d\\n\\u0411\\u0430\\u043b\\u0430\\u043d\\u0441: 10000.0 \\u0420\\n\\u0421\\u043e\\u0432\\u0435\\u0440\\u0448\\u0435\\u043d\\u043e \\u043f\\u043e\\u043a\\u0443\\u043f\\u043e\\u043a: 21"}}'"
+2022-09-07 19:49:20,106 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762926, 'timeout': 20}" and files "None"
+2022-09-07 19:49:22,932 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762926,\n"message":{"message_id":5080,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569365,"text":"\\u0410\\u0434\\u043c\\u0438\\u043d \\u043f\\u0430\\u043d\\u0435\\u043b\\u044c"}}]}'"
+2022-09-07 19:49:22,932 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:49:22,932 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Редактирование пользователя"}, {"text": "..."}, {"text": "В главное меню"}]], "resize_keyboard": true}'}" and files "None"
+2022-09-07 19:49:23,009 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5081,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569365,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:49:23,044 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762927, 'timeout': 20}" and files "None"
+2022-09-07 19:49:24,694 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762927,\n"message":{"message_id":5082,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569366,"text":"\\u0412 \\u0433\\u043b\\u0430\\u0432\\u043d\\u043e\\u0435 \\u043c\\u0435\\u043d\\u044e"}}]}'"
+2022-09-07 19:49:24,695 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:49:24,695 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}, {"text": "Админ панель"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:49:24,805 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762928, 'timeout': 20}" and files "None"
+2022-09-07 19:49:24,812 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5083,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569366,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:49:26,696 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762928,\n"message":{"message_id":5084,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569368,"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u044b"}}]}'"
+2022-09-07 19:49:26,697 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:49:26,697 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'ВИТРИНА', 'reply_markup': '{"keyboard": [[{"text": "Напитки"}, {"text": "Мясо"}, {"text": "Овощи"}], [{"text": "Фрукты"}, {"text": "В главное меню"}, {"text": "Добавить категорию"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:49:26,805 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:49:26,907 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5085,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569369,"text":"\\u0412\\u0418\\u0422\\u0420\\u0418\\u041d\\u0410"}}'"
+2022-09-07 19:49:46,857 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:49:46,965 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:50:07,014 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:50:07,120 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:50:27,169 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:50:27,278 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:50:47,358 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:50:47,473 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:51:07,530 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:51:07,643 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:51:27,690 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:51:27,806 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762929, 'timeout': 20}" and files "None"
+2022-09-07 19:51:39,488 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762929,\n"message":{"message_id":5086,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569501,"text":"\\u0412 \\u0433\\u043b\\u0430\\u0432\\u043d\\u043e\\u0435 \\u043c\\u0435\\u043d\\u044e"}}]}'"
+2022-09-07 19:51:39,488 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:51:39,488 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\u2b07\ufe0f\u2b07\ufe0f\u2b07\ufe0f', 'reply_markup': '{"keyboard": [[{"text": "Мой кошелек"}, {"text": "Купить продукты"}, {"text": "Админ панель"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 19:51:39,587 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762930, 'timeout': 20}" and files "None"
+2022-09-07 19:51:39,633 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5087,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569501,"text":"\\u2b07\\ufe0f\\u2b07\\ufe0f\\u2b07\\ufe0f"}}'"
+2022-09-07 19:51:41,508 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762930,\n"message":{"message_id":5088,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569503,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:51:41,508 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:51:41,516 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 29, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:51:41,619 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762931, 'timeout': 20}" and files "None"
+2022-09-07 19:52:01,671 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:52:01,777 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762931, 'timeout': 20}" and files "None"
+2022-09-07 19:52:21,849 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:52:21,963 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762931, 'timeout': 20}" and files "None"
+2022-09-07 19:52:42,017 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:52:42,127 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762931, 'timeout': 20}" and files "None"
+2022-09-07 19:53:00,704 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:53:00,705 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:53:00,705 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:53:07,204 :: root:29 :: INFO :: Start bot
+2022-09-07 19:53:07,207 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:53:07,209 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:53:07,390 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:53:07,391 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:53:07,391 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:53:07,440 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:53:07,441 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:53:07,492 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:53:07,492 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:53:07,492 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:53:07,493 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:53:07,545 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:53:07,545 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:53:10,859 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762931,\n"message":{"message_id":5089,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569593,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:53:10,860 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:53:10,862 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 29, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:53:10,970 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762932, 'timeout': 20}" and files "None"
+2022-09-07 19:53:15,447 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:53:15,448 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:53:15,449 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:53:27,792 :: root:29 :: INFO :: Start bot
+2022-09-07 19:53:27,794 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:53:27,796 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:53:28,003 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:53:28,004 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:53:28,004 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:53:28,070 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:53:28,071 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:53:28,124 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:53:28,124 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:53:28,125 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:53:28,125 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:53:28,201 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:53:28,201 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:53:29,825 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762932,\n"message":{"message_id":5090,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569612,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:53:29,826 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:53:41,912 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:53:41,978 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2164, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1476, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/bot/bot.py", line 30, in <module>
+    executor.start_polling(dp,skip_updates=True)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 328, in start_polling
+    loop.run_until_complete(self._shutdown_polling())
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 27, in walter
+    st = get.get_info_user_table()
+  File "E:\python\bot\database.py", line 43, in get_info_user_table
+    return data
+  File "E:\python\bot\database.py", line 43, in get_info_user_table
+    return data
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1180, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 621, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1096, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1058, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 318, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-09-07 19:54:39,307 :: root:29 :: INFO :: Start bot
+2022-09-07 19:54:39,309 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:54:39,311 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:54:39,490 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:54:39,491 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:54:39,491 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:54:39,538 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":8}}'"
+2022-09-07 19:54:39,538 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:54:39,587 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:54:39,587 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:54:39,588 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:54:39,588 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:54:39,635 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:54:39,635 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:54:43,744 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762940,\n"message":{"message_id":5098,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569685,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:54:43,745 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:54:57,169 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError('Data_user.reg_new_user() takes 1 positional argument but 2 were given')>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 27, in walter
+    st = get.get_info_user_table()
+  File "E:\python\bot\database.py", line 40, in get_info_user_table
+    self.reg_new_user(self)
+TypeError: Data_user.reg_new_user() takes 1 positional argument but 2 were given
+2022-09-07 19:54:57,171 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762941, 'timeout': 20}" and files "None"
+2022-09-07 19:55:17,221 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 19:55:17,326 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762941, 'timeout': 20}" and files "None"
+2022-09-07 19:55:22,320 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:55:22,320 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:55:22,321 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:55:23,281 :: root:29 :: INFO :: Start bot
+2022-09-07 19:55:23,282 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:55:23,282 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:55:23,458 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:55:23,458 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:55:23,458 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:55:23,508 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:55:23,508 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:55:23,559 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:55:23,559 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:55:23,559 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:55:23,559 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:55:23,608 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:55:23,608 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:55:23,660 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:55:23,660 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:55:23,660 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:55:28,014 :: root:29 :: INFO :: Start bot
+2022-09-07 19:55:28,016 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:55:28,018 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:55:28,215 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:55:28,216 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:55:28,216 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:55:28,271 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:55:28,271 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:55:28,325 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:55:28,325 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:55:28,325 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:55:28,326 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:55:28,379 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:55:28,380 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:55:30,405 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762941,\n"message":{"message_id":5099,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569732,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:55:30,406 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:55:41,632 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:55:41,668 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2164, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1476, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/bot/bot.py", line 30, in <module>
+    executor.start_polling(dp,skip_updates=True)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 328, in start_polling
+    loop.run_until_complete(self._shutdown_polling())
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 27, in walter
+    st = get.get_info_user_table()
+  File "E:\python\bot\database.py", line 40, in get_info_user_table
+    self.reg_new_user(self)
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1180, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 621, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1096, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1089, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 318, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-09-07 19:55:56,158 :: root:29 :: INFO :: Start bot
+2022-09-07 19:55:56,160 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:55:56,162 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:55:56,353 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:55:56,355 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:55:56,355 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:55:56,415 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":1}}'"
+2022-09-07 19:55:56,416 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:55:56,467 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:55:56,467 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:55:56,468 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:55:56,468 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:55:56,532 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:55:56,533 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:55:58,587 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762942,\n"message":{"message_id":5100,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569760,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:55:58,588 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:56:05,760 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 29, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:56:05,762 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762943, 'timeout': 20}" and files "None"
+2022-09-07 19:56:16,998 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:56:16,998 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:56:16,999 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:56:20,648 :: root:29 :: INFO :: Start bot
+2022-09-07 19:56:20,649 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:56:20,650 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:56:20,824 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:56:20,824 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:56:20,825 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:56:20,873 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:56:20,873 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:56:20,921 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:56:20,922 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:56:20,922 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:56:20,922 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:56:20,971 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:56:20,972 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:56:23,260 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762943,\n"message":{"message_id":5101,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569785,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:56:23,260 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:56:23,268 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\U0001f194 ID: 671924527\nИмя: Константин\nБаланс: 0.0 Р\nСовершено покупок: 0'}" and files "None"
+2022-09-07 19:56:23,379 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762944, 'timeout': 20}" and files "None"
+2022-09-07 19:56:23,408 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5102,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569785,"text":"\\ud83c\\udd94 ID: 671924527\\n\\u0418\\u043c\\u044f: \\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d\\n\\u0411\\u0430\\u043b\\u0430\\u043d\\u0441: 0.0 \\u0420\\n\\u0421\\u043e\\u0432\\u0435\\u0440\\u0448\\u0435\\u043d\\u043e \\u043f\\u043e\\u043a\\u0443\\u043f\\u043e\\u043a: 0"}}'"
+2022-09-07 19:56:38,610 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762944,\n"message":{"message_id":5103,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569800,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:56:38,611 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:56:38,717 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 29, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:56:38,719 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762945, 'timeout': 20}" and files "None"
+2022-09-07 19:56:44,156 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:56:44,157 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:56:44,157 :: root:31 :: INFO :: Stop bot
+2022-09-07 19:57:03,306 :: root:29 :: INFO :: Start bot
+2022-09-07 19:57:03,308 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:57:03,311 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:57:03,496 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:57:03,497 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:57:03,498 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:57:03,547 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:57:03,548 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:57:03,599 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:57:03,599 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:57:03,600 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:57:03,600 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:57:03,663 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:57:03,663 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:57:05,509 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762945,\n"message":{"message_id":5104,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569827,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:57:05,510 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:57:41,594 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:57:41,632 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2164, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1476, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/bot/bot.py", line 30, in <module>
+    executor.start_polling(dp,skip_updates=True)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 328, in start_polling
+    loop.run_until_complete(self._shutdown_polling())
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 27, in walter
+    st = get.get_info_user_table()
+  File "E:\python\bot\database.py", line 41, in get_info_user_table
+    self.get_info_user_table()
+  File "E:\python\bot\database.py", line 41, in get_info_user_table
+    self.get_info_user_table()
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_trace_dispatch.py", line 59, in trace_dispatch
+    return _trace_dispatch(py_db, frame, event, arg)
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1330, in _pydevd_bundle.pydevd_cython_win32_310_64.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1590, in _pydevd_bundle.pydevd_cython_win32_310_64.ThreadTracer.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1096, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1058, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 318, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-09-07 19:57:54,560 :: root:29 :: INFO :: Start bot
+2022-09-07 19:57:54,561 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 19:57:54,562 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 19:57:54,705 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 19:57:54,705 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 19:57:54,705 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:57:54,751 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":1}}'"
+2022-09-07 19:57:54,751 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 19:57:54,802 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 19:57:54,802 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 19:57:54,802 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 19:57:54,802 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 19:57:54,853 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 19:57:54,853 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 19:57:57,393 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762946,\n"message":{"message_id":5105,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662569879,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 19:57:57,393 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 19:57:57,504 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 29, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 19:57:57,505 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762947, 'timeout': 20}" and files "None"
+2022-09-07 19:58:02,306 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 19:58:02,306 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 19:58:02,307 :: root:31 :: INFO :: Stop bot
+2022-09-07 20:00:40,786 :: root:29 :: INFO :: Start bot
+2022-09-07 20:00:40,788 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 20:00:40,790 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 20:00:40,960 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 20:00:40,962 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 20:00:40,962 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:00:41,007 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:00:41,008 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 20:00:41,064 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 20:00:41,064 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 20:00:41,065 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 20:00:41,065 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:00:41,109 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:00:41,109 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 20:00:45,424 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762947,\n"message":{"message_id":5106,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570047,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 20:00:45,424 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:00:58,209 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\U0001f194 ID: 671924527\nИмя: Константин\nБаланс: 0.0 Р\nСовершено покупок: 0'}" and files "None"
+2022-09-07 20:00:58,214 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762948, 'timeout': 20}" and files "None"
+2022-09-07 20:00:58,335 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5107,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570060,"text":"\\ud83c\\udd94 ID: 671924527\\n\\u0418\\u043c\\u044f: \\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d\\n\\u0411\\u0430\\u043b\\u0430\\u043d\\u0441: 0.0 \\u0420\\n\\u0421\\u043e\\u0432\\u0435\\u0440\\u0448\\u0435\\u043d\\u043e \\u043f\\u043e\\u043a\\u0443\\u043f\\u043e\\u043a: 0"}}'"
+2022-09-07 20:01:10,008 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 20:01:10,010 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 20:01:10,010 :: root:31 :: INFO :: Stop bot
+2022-09-07 20:01:13,833 :: root:29 :: INFO :: Start bot
+2022-09-07 20:01:13,835 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 20:01:13,837 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 20:01:14,019 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 20:01:14,020 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 20:01:14,020 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:01:14,069 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:01:14,069 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 20:01:14,118 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 20:01:14,118 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 20:01:14,119 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 20:01:14,119 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:01:14,167 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:01:14,168 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 20:01:16,749 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762948,\n"message":{"message_id":5108,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570078,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 20:01:16,750 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:01:58,098 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 20:01:58,136 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2164, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1476, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/bot/bot.py", line 30, in <module>
+    executor.start_polling(dp,skip_updates=True)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 328, in start_polling
+    loop.run_until_complete(self._shutdown_polling())
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 27, in walter
+    st = get.get_info_user_table()
+  File "E:\python\bot\database.py", line 41, in get_info_user_table
+    self.get_info_user_table()
+  File "E:\python\bot\database.py", line 43, in get_info_user_table
+    return data
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1180, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 621, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1096, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1089, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 318, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-09-07 20:04:30,152 :: root:29 :: INFO :: Start bot
+2022-09-07 20:04:30,152 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 20:04:30,153 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 20:04:30,305 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 20:04:30,305 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 20:04:30,305 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:04:30,352 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":1}}'"
+2022-09-07 20:04:30,352 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 20:04:30,399 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 20:04:30,399 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 20:04:30,399 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 20:04:30,400 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:04:30,447 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:04:30,447 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 20:04:36,640 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762949,\n"message":{"message_id":5109,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570278,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 20:04:36,640 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:04:36,748 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=TypeError("'NoneType' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 29, in walter
+    f'\U0001f194 ID: {st[1]}\nИмя: {st[0]}\nБаланс: {st[2]} Р\nСовершено покупок: {st[3]}')
+TypeError: 'NoneType' object is not subscriptable
+2022-09-07 20:04:36,749 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762950, 'timeout': 20}" and files "None"
+2022-09-07 20:04:38,986 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 20:04:38,987 :: aiogram:329 :: WARNING :: Goodbye!
+2022-09-07 20:04:38,987 :: root:31 :: INFO :: Stop bot
+2022-09-07 20:05:00,100 :: root:29 :: INFO :: Start bot
+2022-09-07 20:05:00,102 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 20:05:00,104 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 20:05:00,297 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 20:05:00,298 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 20:05:00,298 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:05:00,351 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:05:00,351 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 20:05:00,405 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 20:05:00,405 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 20:05:00,406 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 20:05:00,406 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:05:00,471 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:05:00,472 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 20:05:03,040 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762950,\n"message":{"message_id":5110,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570305,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 20:05:03,041 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:05,393 :: aiogram.dispatcher.dispatcher:433 :: INFO :: Stop polling...
+2022-09-07 20:06:05,428 :: asyncio:1729 :: ERROR :: Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2173, in <module>
+    main()
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 2164, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1476, in run
+    return self._exec(is_module, entry_point_fn, module_name, file, globals, locals)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/python/bot/bot.py", line 30, in <module>
+    executor.start_polling(dp,skip_updates=True)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 328, in start_polling
+    loop.run_until_complete(self._shutdown_polling())
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\executor.py", line 323, in start_polling
+    loop.run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\twent\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "E:\python\bot\handlers\bot_client.py", line 28, in walter
+    await bot.send_message(message.chat.id,
+  File "E:\python\bot\handlers\bot_client.py", line 28, in walter
+    await bot.send_message(message.chat.id,
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_trace_dispatch.py", line 59, in trace_dispatch
+    return _trace_dispatch(py_db, frame, event, arg)
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1330, in _pydevd_bundle.pydevd_cython_win32_310_64.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1590, in _pydevd_bundle.pydevd_cython_win32_310_64.ThreadTracer.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1096, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1058, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 318, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files (x86)\PyCharm Community Edition 2021.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+2022-09-07 20:06:20,777 :: root:29 :: INFO :: Start bot
+2022-09-07 20:06:20,777 :: asyncio:625 :: DEBUG :: Using proactor: IocpProactor
+2022-09-07 20:06:20,778 :: aiogram:133 :: DEBUG :: Make request: "getMe" with data: "{}" and files "None"
+2022-09-07 20:06:20,934 :: aiogram:95 :: DEBUG :: Response for getMe: [200] "'{"ok":true,"result":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot","can_join_groups":true,"can_read_all_group_messages":false,"supports_inline_queries":false}}'"
+2022-09-07 20:06:20,934 :: aiogram:362 :: INFO :: Bot: тест 1 [@test_upy_bot]
+2022-09-07 20:06:20,934 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:06:20,983 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":1}}'"
+2022-09-07 20:06:20,983 :: aiogram:133 :: DEBUG :: Make request: "deleteWebhook" with data: "{'drop_pending_updates': True}" and files "None"
+2022-09-07 20:06:21,040 :: aiogram:95 :: DEBUG :: Response for deleteWebhook: [200] "'{"ok":true,"result":true,"description":"Webhook is already deleted"}'"
+2022-09-07 20:06:21,040 :: aiogram:358 :: WARNING :: Updates were skipped successfully.
+2022-09-07 20:06:21,040 :: aiogram.dispatcher.dispatcher:358 :: INFO :: Start polling.
+2022-09-07 20:06:21,040 :: aiogram:133 :: DEBUG :: Make request: "getWebhookInfo" with data: "{}" and files "None"
+2022-09-07 20:06:21,087 :: aiogram:95 :: DEBUG :: Response for getWebhookInfo: [200] "'{"ok":true,"result":{"url":"","has_custom_certificate":false,"pending_update_count":0}}'"
+2022-09-07 20:06:21,087 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'timeout': 20}" and files "None"
+2022-09-07 20:06:23,349 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762951,\n"message":{"message_id":5111,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570385,"text":"\\u041c\\u043e\\u0439 \\u043a\\u043e\\u0448\\u0435\\u043b\\u0435\\u043a"}}]}'"
+2022-09-07 20:06:23,349 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:23,445 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\U0001f194 ID: 671924527\nИмя: Константин\nБаланс: 0.0 Р\nСовершено покупок: 0'}" and files "None"
+2022-09-07 20:06:23,446 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762952, 'timeout': 20}" and files "None"
+2022-09-07 20:06:23,523 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5112,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570385,"text":"\\ud83c\\udd94 ID: 671924527\\n\\u0418\\u043c\\u044f: \\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d\\n\\u0411\\u0430\\u043b\\u0430\\u043d\\u0441: 0.0 \\u0420\\n\\u0421\\u043e\\u0432\\u0435\\u0440\\u0448\\u0435\\u043d\\u043e \\u043f\\u043e\\u043a\\u0443\\u043f\\u043e\\u043a: 0"}}'"
+2022-09-07 20:06:37,875 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762952,\n"message":{"message_id":5113,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570400,"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u044b"}}]}'"
+2022-09-07 20:06:37,875 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:37,876 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'ВИТРИНА', 'reply_markup': '{"keyboard": [[{"text": "Напитки"}, {"text": "Мясо"}, {"text": "Овощи"}], [{"text": "Фрукты"}, {"text": "В главное меню"}, {"text": "Добавить категорию"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 20:06:37,979 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762953, 'timeout': 20}" and files "None"
+2022-09-07 20:06:38,049 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5114,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570400,"text":"\\u0412\\u0418\\u0422\\u0420\\u0418\\u041d\\u0410"}}'"
+2022-09-07 20:06:38,740 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762953,\n"message":{"message_id":5115,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570400,"text":"\\u041d\\u0430\\u043f\\u0438\\u0442\\u043a\\u0438"}}]}'"
+2022-09-07 20:06:38,740 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:38,748 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\nТип: Напитки\nНазвание: Кола'}" and files "None"
+2022-09-07 20:06:38,851 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762954, 'timeout': 20}" and files "None"
+2022-09-07 20:06:38,933 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5116,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570401,"text":"\\u0422\\u0438\\u043f: \\u041d\\u0430\\u043f\\u0438\\u0442\\u043a\\u0438\\n\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435: \\u041a\\u043e\\u043b\\u0430"}}'"
+2022-09-07 20:06:38,933 :: aiogram:133 :: DEBUG :: Make request: "sendPhoto" with data: "{'chat_id': 671924527, 'photo': 'AgACAgIAAxkBAAILA2MLfz3qHqtD33LPf-bIfeCkH_QzAAKWwTEb7P1YSHm91mCtwMgAAQEAAwIAA3MAAykE'}" and files "{}"
+2022-09-07 20:06:39,094 :: aiogram:95 :: DEBUG :: Response for sendPhoto: [200] "'{"ok":true,"result":{"message_id":5117,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570401,"photo":[{"file_id":"AgACAgIAAxkDAAIT_WMYz6Hw2jHw5YosGIbDAblx39VoAAKWwTEb7P1YSHm91mCtwMgAAQEAAwIAA3MAAykE","file_unique_id":"AQADlsExG-z9WEh4","file_size":1173,"width":87,"height":90},{"file_id":"AgACAgIAAxkDAAIT_WMYz6Hw2jHw5YosGIbDAblx39VoAAKWwTEb7P1YSHm91mCtwMgAAQEAAwIAA20AAykE","file_unique_id":"AQADlsExG-z9WEhy","file_size":11351,"width":311,"height":320},{"file_id":"AgACAgIAAxkDAAIT_WMYz6Hw2jHw5YosGIbDAblx39VoAAKWwTEb7P1YSHm91mCtwMgAAQEAAwIAA3gAAykE","file_unique_id":"AQADlsExG-z9WEh9","file_size":44013,"width":777,"height":800},{"file_id":"AgACAgIAAxkDAAIT_WMYz6Hw2jHw5YosGIbDAblx39VoAAKWwTEb7P1YSHm91mCtwMgAAQEAAwIAA3kAAykE","file_unique_id":"AQADlsExG-z9WEh-","file_size":74707,"width":1243,"height":1280}]}}'"
+2022-09-07 20:06:39,094 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'Цена: 100Р', 'reply_markup': '{"inline_keyboard": [[{"text": "Купить", "callback_data": "button Кола"}]]}'}" and files "None"
+2022-09-07 20:06:39,240 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5118,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570401,"text":"\\u0426\\u0435\\u043d\\u0430: 100\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u041a\\u043e\\u043b\\u0430"}]]}}}'"
+2022-09-07 20:06:39,241 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\nТип: Напитки\nНазвание: Фанта'}" and files "None"
+2022-09-07 20:06:39,383 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5119,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570401,"text":"\\u0422\\u0438\\u043f: \\u041d\\u0430\\u043f\\u0438\\u0442\\u043a\\u0438\\n\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435: \\u0424\\u0430\\u043d\\u0442\\u0430"}}'"
+2022-09-07 20:06:39,384 :: aiogram:133 :: DEBUG :: Make request: "sendPhoto" with data: "{'chat_id': 671924527, 'photo': 'AgACAgIAAxkBAAILKWMLf8-MuCRKEMmTM9WlOGlL_AnxAAKbwTEb7P1YSBHi9QbyP0dyAQADAgADcwADKQQ'}" and files "{}"
+2022-09-07 20:06:39,541 :: aiogram:95 :: DEBUG :: Response for sendPhoto: [200] "'{"ok":true,"result":{"message_id":5120,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570401,"photo":[{"file_id":"AgACAgIAAxkDAAIUAAFjGM-hcC9963JD6xoqKjHMR5r6GgACm8ExG-z9WEgR4vUG8j9HcgEAAwIAA3MAAykE","file_unique_id":"AQADm8ExG-z9WEh4","file_size":1021,"width":60,"height":90},{"file_id":"AgACAgIAAxkDAAIUAAFjGM-hcC9963JD6xoqKjHMR5r6GgACm8ExG-z9WEgR4vUG8j9HcgEAAwIAA20AAykE","file_unique_id":"AQADm8ExG-z9WEhy","file_size":10020,"width":213,"height":320},{"file_id":"AgACAgIAAxkDAAIUAAFjGM-hcC9963JD6xoqKjHMR5r6GgACm8ExG-z9WEgR4vUG8j9HcgEAAwIAA3gAAykE","file_unique_id":"AQADm8ExG-z9WEh9","file_size":23365,"width":400,"height":600}]}}'"
+2022-09-07 20:06:39,541 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'Цена: 100Р', 'reply_markup': '{"inline_keyboard": [[{"text": "Купить", "callback_data": "button Фанта"}]]}'}" and files "None"
+2022-09-07 20:06:39,685 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5121,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570401,"text":"\\u0426\\u0435\\u043d\\u0430: 100\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u0424\\u0430\\u043d\\u0442\\u0430"}]]}}}'"
+2022-09-07 20:06:39,686 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': '\nТип: Напитки\nНазвание: фанта'}" and files "None"
+2022-09-07 20:06:39,826 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5122,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570402,"text":"\\u0422\\u0438\\u043f: \\u041d\\u0430\\u043f\\u0438\\u0442\\u043a\\u0438\\n\\u041d\\u0430\\u0437\\u0432\\u0430\\u043d\\u0438\\u0435: \\u0444\\u0430\\u043d\\u0442\\u0430"}}'"
+2022-09-07 20:06:39,826 :: aiogram:133 :: DEBUG :: Make request: "sendPhoto" with data: "{'chat_id': 671924527, 'photo': 'AgACAgIAAxkBAAIN5WML2KgnKf-rjCixF3dZ87qDmcAUAAPEMRvs_VhIF8ka5FcpyyUBAAMCAANzAAMpBA'}" and files "{}"
+2022-09-07 20:06:39,989 :: aiogram:95 :: DEBUG :: Response for sendPhoto: [200] "'{"ok":true,"result":{"message_id":5123,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570402,"photo":[{"file_id":"AgACAgIAAxkDAAIUA2MYz6JAJ_-_us8_iiIp2Pg_FsCeAAPEMRvs_VhIF8ka5FcpyyUBAAMCAANzAAMpBA","file_unique_id":"AQAExDEb7P1YSHg","file_size":1021,"width":60,"height":90},{"file_id":"AgACAgIAAxkDAAIUA2MYz6JAJ_-_us8_iiIp2Pg_FsCeAAPEMRvs_VhIF8ka5FcpyyUBAAMCAANtAAMpBA","file_unique_id":"AQAExDEb7P1YSHI","file_size":9781,"width":213,"height":320},{"file_id":"AgACAgIAAxkDAAIUA2MYz6JAJ_-_us8_iiIp2Pg_FsCeAAPEMRvs_VhIF8ka5FcpyyUBAAMCAAN4AAMpBA","file_unique_id":"AQAExDEb7P1YSH0","file_size":21901,"width":400,"height":600}]}}'"
+2022-09-07 20:06:39,989 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'Цена: 100Р', 'reply_markup': '{"inline_keyboard": [[{"text": "Купить", "callback_data": "button фанта"}]]}'}" and files "None"
+2022-09-07 20:06:40,119 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5124,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570402,"text":"\\u0426\\u0435\\u043d\\u0430: 100\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u0444\\u0430\\u043d\\u0442\\u0430"}]]}}}'"
+2022-09-07 20:06:40,119 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'КАТЕГОРИЯ " НАПИТКИ "\nПУСТО'}" and files "None"
+2022-09-07 20:06:40,301 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5125,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570402,"text":"\\u041a\\u0410\\u0422\\u0415\\u0413\\u041e\\u0420\\u0418\\u042f \\" \\u041d\\u0410\\u041f\\u0418\\u0422\\u041a\\u0418 \\"\\n\\u041f\\u0423\\u0421\\u0422\\u041e"}}'"
+2022-09-07 20:06:41,737 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762954,\n"callback_query":{"id":"2885893869845537743","from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"message":{"message_id":5124,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570402,"text":"\\u0426\\u0435\\u043d\\u0430: 100\\u0420","reply_markup":{"inline_keyboard":[[{"text":"\\u041a\\u0443\\u043f\\u0438\\u0442\\u044c","callback_data":"button \\u0444\\u0430\\u043d\\u0442\\u0430"}]]}},"chat_instance":"-2474003302060632335","data":"button \\u0444\\u0430\\u043d\\u0442\\u0430"}}]}'"
+2022-09-07 20:06:41,737 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:41,738 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'Напишите количество, целочисленное'}" and files "None"
+2022-09-07 20:06:41,832 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5126,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570404,"text":"\\u041d\\u0430\\u043f\\u0438\\u0448\\u0438\\u0442\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e, \\u0446\\u0435\\u043b\\u043e\\u0447\\u0438\\u0441\\u043b\\u0435\\u043d\\u043d\\u043e\\u0435"}}'"
+2022-09-07 20:06:41,832 :: aiogram:133 :: DEBUG :: Make request: "answerCallbackQuery" with data: "{'callback_query_id': '2885893869845537743'}" and files "None"
+2022-09-07 20:06:41,833 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762955, 'timeout': 20}" and files "None"
+2022-09-07 20:06:41,936 :: aiogram:95 :: DEBUG :: Response for answerCallbackQuery: [200] "'{"ok":true,"result":true}'"
+2022-09-07 20:06:43,790 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762955,\n"message":{"message_id":5127,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570405,"text":"0"}}]}'"
+2022-09-07 20:06:43,790 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:43,790 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'Не может меньше или равен 0!', 'reply_to_message_id': 5127}" and files "None"
+2022-09-07 20:06:43,897 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5128,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570406,"reply_to_message":{"message_id":5127,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570405,"text":"0"},"text":"\\u041d\\u0435 \\u043c\\u043e\\u0436\\u0435\\u0442 \\u043c\\u0435\\u043d\\u044c\\u0448\\u0435 \\u0438\\u043b\\u0438 \\u0440\\u0430\\u0432\\u0435\\u043d 0!"}}'"
+2022-09-07 20:06:43,897 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762956, 'timeout': 20}" and files "None"
+2022-09-07 20:06:46,358 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[{"update_id":84762956,\n"message":{"message_id":5129,"from":{"id":671924527,"is_bot":false,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","language_code":"ru"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570408,"text":"1"}}]}'"
+2022-09-07 20:06:46,358 :: aiogram.dispatcher.dispatcher:395 :: DEBUG :: Received 1 updates.
+2022-09-07 20:06:46,359 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'Не хватает денег.'}" and files "None"
+2022-09-07 20:06:46,463 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762957, 'timeout': 20}" and files "None"
+2022-09-07 20:06:46,542 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5130,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570408,"text":"\\u041d\\u0435 \\u0445\\u0432\\u0430\\u0442\\u0430\\u0435\\u0442 \\u0434\\u0435\\u043d\\u0435\\u0433."}}'"
+2022-09-07 20:06:46,543 :: aiogram:133 :: DEBUG :: Make request: "sendMessage" with data: "{'chat_id': 671924527, 'text': 'ВИТРИНА', 'reply_markup': '{"keyboard": [[{"text": "Напитки"}, {"text": "Мясо"}, {"text": "Овощи"}], [{"text": "Фрукты"}, {"text": "В главное меню"}, {"text": "Добавить категорию"}]], "resize_keyboard": true, "one_time_keyboard": true}'}" and files "None"
+2022-09-07 20:06:46,737 :: aiogram:95 :: DEBUG :: Response for sendMessage: [200] "'{"ok":true,"result":{"message_id":5131,"from":{"id":5486517421,"is_bot":true,"first_name":"\\u0442\\u0435\\u0441\\u0442 1","username":"test_upy_bot"},"chat":{"id":671924527,"first_name":"\\u041a\\u043e\\u043d\\u0441\\u0442\\u0430\\u043d\\u0442\\u0438\\u043d","username":"aloupuy","type":"private"},"date":1662570408,"text":"\\u0412\\u0418\\u0422\\u0420\\u0418\\u041d\\u0410"}}'"
+2022-09-07 20:07:06,516 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 20:07:06,617 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762957, 'timeout': 20}" and files "None"
+2022-09-07 20:07:26,665 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 20:07:26,770 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762957, 'timeout': 20}" and files "None"
+2022-09-07 20:07:46,826 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 20:07:46,934 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762957, 'timeout': 20}" and files "None"
+2022-09-07 20:08:06,984 :: aiogram:95 :: DEBUG :: Response for getUpdates: [200] "'{"ok":true,"result":[]}'"
+2022-09-07 20:08:07,087 :: aiogram:133 :: DEBUG :: Make request: "getUpdates" with data: "{'offset': 84762957, 'timeout': 20}" and files "None"

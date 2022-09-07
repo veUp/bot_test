@@ -12,7 +12,7 @@ logging.basicConfig(filename='logs/log_test.log',
                     )
 console = logging.StreamHandler()
 console.setFormatter(logging.Formatter(FORMAT))
-console.setLevel(logging.DEBUG)
+console.setLevel(logging.INFO)
 logging.getLogger('').addHandler(console)
 
 add_category.registration_add(dp)

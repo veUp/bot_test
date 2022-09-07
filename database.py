@@ -34,13 +34,12 @@ class Data_user:
 
 
     def get_info_user_table(self):
-        try:
-            data = self.cur.execute("""SELECT * FROM users WHERE ID =?""", (self.ID,))
-            data = data.fetchone()
-        except:
-            data = False
-        finally:
-            return data
+        data = self.cur.execute("""SELECT * FROM users WHERE ID =?""", (self.ID,))
+        data = data.fetchone()
+        if data is None:
+            self.reg_new_user()
+            return self.get_info_user_table()
+        return data
 
     def reg_new_user(self):
         num = self.cur.execute("""SELECT ID FROM users WHERE ID =?""", (self.ID,))

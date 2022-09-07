@@ -1,14 +1,10 @@
 from aiogram import types, Dispatcher
 from bot_create import bot, dp
 import database
-import logging
-
-logger = logging.getLogger('app.handlers.bot_client')
-logger.info('In bot_client')
 
 async def menu(message):
     if message.chat.id == 671924527:
-        marsk = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=10,one_time_keyboard=True)
+        marsk = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=10)
         button1 = types.KeyboardButton('Мой кошелек')
         button2 = types.KeyboardButton('Купить продукты')
         button3 = types.KeyboardButton('Админ панель')
